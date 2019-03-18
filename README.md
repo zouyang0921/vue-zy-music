@@ -70,93 +70,93 @@ node app.js
 ## 项目目录
 
 ```
-├── dist															// 项目打包文件
+├── dist                                      // 项目打包文件
 ├── public
-│   └── index.html										// 入口 html 文件
-├── server														// 服务端目录
-├── src																// 项目源码目录					
+│   └── index.html                            // 入口 html 文件
+├── server                                    // 服务端目录
+├── src                                       // 项目源码目录
 │   ├── api
-│   │   └── api.js										// 数据交互
-│   ├── assets												// 资源目录
+│   │   └── api.js                            // 数据交互
+│   ├── assets                                // 资源目录
 │   │   ├── images
 │   │   ├── js
-│   │   │   ├── config.js							// 常量配置
-│   │   │   ├── song.js								// 数据处理
-│   │   │   ├── storage.js						// 设置 localStorage
-│   │   │   └── util.js								// 公共方法
-│   │   └── style											// 样式目录
+│   │   │   ├── config.js                     // 常量配置
+│   │   │   ├── song.js                       // 数据处理
+│   │   │   ├── storage.js                    // 设置 localStorage
+│   │   │   └── util.js                       // 公共方法
+│   │   └── style                             // 样式目录
 │   │       ├── animation.less
 │   │       ├── index.less
 │   │       ├── mixin.less
 │   │       ├── reset.less
 │   │       └── variable.less
-│   ├── components										// 组件目录
-│   │   ├── common										// 公共组件目录
+│   ├── components                            // 组件目录
+│   │   ├── common                            // 公共组件目录
 │   │   │   └── loading
-│   │   │       └── loading.vue				// 加载中组件
+│   │   │       └── loading.vue               // 加载中组件
 │   │   ├── v-header
-│   │   │   └── v-header.vue					// 头部组件
+│   │   │   └── v-header.vue                  // 头部组件
 │   │   ├── tab
-│   │   │   └── tab.vue								// 首页-切换个性推荐推荐和排行榜
+│   │   │   └── tab.vue                       // 首页-切换个性推荐推荐和排行榜
 │   │   ├── banner
-│   │   │   └── banner.vue						// 推荐页 banner 组件
+│   │   │   └── banner.vue                    // 推荐页 banner 组件
 │   │   ├── music-list
-│   │   │   └── music-list.vue				// 音乐列表组件
+│   │   │   └── music-list.vue                // 音乐列表组件
 │   │   └── player
-│   │   │   ├── player.vue						// 正在播放组件
-│   │   │   └── zyPlayer.js						// 播放器事相关件绑定
-│   └── views													// 路由跳转相关页面
+│   │   │   ├── player.vue                    // 正在播放组件
+│   │   │   └── zyPlayer.js                   // 播放器事相关件绑定
+│   └── views                                 // 路由跳转相关页面
 │   │   ├── index
-│   │   │   └── index.vue							// 首页
+│   │   │   └── index.vue                     // 首页
 │   │   ├── recommend
-│   │   │   └── recommend.vue					// 个性推荐
+│   │   │   └── recommend.vue                 // 个性推荐
 │   │   ├── rank
-│   │   │   └── rank.vue							// 排行榜
+│   │   │   └── rank.vue                      // 排行榜
 │   │   ├── playlist
-│   │   │   └── playlist.vue					// 歌单
+│   │   │   └── playlist.vue                  // 歌单
 │   │   ├── mine
-│   │   │   └── mine.vue							// 我的
+│   │   │   └── mine.vue                      // 我的
 │   │   ├── my-history
-│   │   │   └── my-history.vue				// 最近播放(播放历史)
+│   │   │   └── my-history.vue                // 最近播放(播放历史)
 │   │   └── search
-│   │       └── search.vue						// 搜索
+│   │       └── search.vue                    // 搜索
 │   ├── router
-│   │   └── router.js									// 路由配置
-│   ├── store													// 状态管理
+│   │   └── router.js                         // 路由配置
+│   ├── store                                 // 状态管理
 │   │   ├── actions.js
 │   │   ├── getters.js
 │   │   ├── index.js
 │   │   ├── mutation-types.js
 │   │   ├── mutations.js
 │   │   └── state.js
-│   ├── App.vue												// 根组件
-│  	├── main.js												// 入口主文件
-└── vue.config.js											// Vue 配置文件
+│   ├── App.vue                               // 根组件
+│   ├── main.js                               // 入口主文件
+└── vue.config.js                             // Vue 配置文件
 ```
 
 ## 界面
 
 #### 首页 - 个性推荐
 
-![recommend](/Users/zouyang/Project/vue-zy-music/screen_shot/recommend.jpg)
+![recommend](./screen_shot/recommend.jpg)
 
 
 
 #### 首页 - 排行榜
 
-![rank](/Users/zouyang/Project/vue-zy-music/screen_shot/rank.jpg)
+![rank](./screen_shot/rank.jpg)
 
 
 
 #### 歌单详情
 
-![playlist](/Users/zouyang/Project/vue-zy-music/screen_shot/playlist.jpg)
+![playlist](./screen_shot/playlist.jpg)
 
 
 
 #### 正在播放
 
-![player](/Users/zouyang/Project/vue-zy-music/screen_shot/player.jpg)
+![player](./screen_shot/player.jpg)
 
 
 

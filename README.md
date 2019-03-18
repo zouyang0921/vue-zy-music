@@ -162,4 +162,4 @@ node app.js
 
 #### 歌词滚动
 
-![lyric](/Users/zouyang/Project/vue-zy-music/screen_shot/lyric.jpg)
+![lyric](./screen_shot/lyric.jpg)
